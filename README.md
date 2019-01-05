@@ -62,8 +62,8 @@ This project was generated using:
 
 ### IOT Assignment Details
 
-1.Implemented by using spring boot,Maven and IBM cloudant as technology stack
-2.Added html page for UI and ajax calls are made to retrieve response from various api calls
+Implemented by using spring boot,Maven and IBM cloudant as technology stack
+Added html page for UI and ajax calls are made to retrieve response from various api calls
 
 What work it do?
 Application has the ability to store the details submitted by user in IBM cloudant service.
