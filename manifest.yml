@@ -1,0 +1,17 @@
+applications:
+- buildpack: java_buildpack
+  domain: eu-gb.mybluemix.net
+  random-route: true
+  host: EquipmentTaskIotApp
+  instances: 1
+  memory: 1024M
+  name: iotassignment1
+  path: ./target/iotassignment1-1.0-SNAPSHOT.jar
+  services:
+  - cloudant
+  - cloudant
+  - cloudant
+  - cloudant
+  timeout: 360
+domain: eu-gb.mybluemix.net
+host: EquipmentTaskIotApp
