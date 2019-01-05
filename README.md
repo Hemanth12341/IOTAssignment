@@ -48,10 +48,9 @@ To run the application in Docker use the Docker file called `Dockerfile`. If you
 ### Endpoints
 
 The application exposes the following endpoints:
-* Cloudant endpoint: `<host>:<port>/v1/cloudant` e.g. http://localhost:8080/v1/cloudant
-
-The ports are set in the pom.xml file and exposed to the CLI in the cli-config.yml file.
-
+* Cloudant endpoint: `<host>:<port>/equipmentService/equipment` e.g. http://localhost:8080/equipmentService/equipment
+* Cloudant endpoint: `<host>:<port>/equipmentService/equipment/{equipmentNumber}` e.g. http://localhost:8080/equipmentService/equipment/20122
+* Cloudant endpoint: `<host>:<port>/equipmentService/equipment/search/limit` e.g. http://localhost:8080/equipmentService/equipment/search/100
 
 ### Notices
 
@@ -61,7 +60,7 @@ This project was generated using:
 * generator-ibm-cloud-enablement v1.5.4
 * generator-ibm-java-spring v
 
-#IOT Assignment
+### IOT Assignment Details
 
 1.Implemented by using spring boot,Maven and IBM cloudant as technology stack
 2.Added html page for UI and ajax calls are made to retrieve response from various api calls
@@ -72,7 +71,7 @@ It also has the ability to fetch details specifically or can fetch details as a 
 
 How to run the application in local?
 
-Just fork the code to your local work space and can start the application as spring boot application
+Just fork the code to your local work space and can start the application as spring boot application.
 In the application.properties file,just replace the IBM cloudant service credentials with your respective one.
 
 
