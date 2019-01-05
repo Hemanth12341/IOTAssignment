@@ -34,9 +34,6 @@ The project contains IBM Cloud specific files that are used to deploy the applic
 
 This microservice application is configured to connect to the following services :
 * [IBM Cloud Cloudant service](https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db).
-* [IBM Cloud Cloudant service](https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db).
-* [IBM Cloud Cloudant service](https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db).
-* [IBM Cloud Cloudant service](https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db).
 
 Credentials are either taken from the VCAP_SERVICES environment variable that IBM Cloud provides or from environment variables passed in by the config file `src/main/resources/localdev-config.json`.
 
@@ -51,9 +48,6 @@ To run the application in Docker use the Docker file called `Dockerfile`. If you
 ### Endpoints
 
 The application exposes the following endpoints:
-* Cloudant endpoint: `<host>:<port>/v1/cloudant` e.g. http://localhost:8080/v1/cloudant
-* Cloudant endpoint: `<host>:<port>/v1/cloudant` e.g. http://localhost:8080/v1/cloudant
-* Cloudant endpoint: `<host>:<port>/v1/cloudant` e.g. http://localhost:8080/v1/cloudant
 * Cloudant endpoint: `<host>:<port>/v1/cloudant` e.g. http://localhost:8080/v1/cloudant
 
 The ports are set in the pom.xml file and exposed to the CLI in the cli-config.yml file.
